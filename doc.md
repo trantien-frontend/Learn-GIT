@@ -83,4 +83,17 @@
   git clone git@github--guild.com... #second git
   ```
 
-  - Tương tự với nhũng câu git remote, add , origin
+  - Tương tự với những câu git remote, add , origin
+
+  # Clone với https :
+
+  ```bash
+    git clone https://github.com/trantien-frontend/Git-Test.git #default
+  ```
+
+  - Trường hợp repo mode: private or public nhưng muốn có quyền push code lên remote repo thì phải nhập username và password
+
+  ```bash
+    git clone https://username:password@github.com/trantien-frontend/Git-Test.git
+    git clone https://trantien-frontend:456789@github.com/trantien-frontend/Git-Test.git #example
+  ```
