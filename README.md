@@ -1,11 +1,5 @@
-# Learn-GIT
+Syntax - mark down :
 
-git log
-
-# Learn-GIT
-
-# conflict
-
-git conflict 2
-
-conflict 3
+```js
+const a = 100;
+```

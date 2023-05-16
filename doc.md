@@ -126,6 +126,43 @@
     git pull
   ```
 
-# React me : usr mark down syntax
+# Read me : usr mark down syntax
 
 [doc md git:](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+[Link tool generate table](https://www.tablesgenerator.com/)
+
+# Git branch
+
+```bash
+    git branch #show all branch
+    git branch new-branch # create new branch
+    git checkout -b new branch # create new branch, jump to new branch
+    #same git checkout -b
+    git switch -c new branch
+
+    # show all branch remote
+    git branch -r
+    # show all branch local and remote
+    git branch -a
+
+    # update git
+    git fetch
+
+    # Rename branch Current
+    git branch -m new name branch
+    # Rename branch khác với branch current
+    git branch -m name-branch-need-to-rename new-name-branch
+
+    # delete branch local
+    git branch -D name-branch-need-to-del
+    # delete branch origin
+    git push origin --delete name-branch-need-to-del
+
+    # create branch on origin form local
+    git push -u origin name-branch-need-to-create
+
+
+
+
+```
