@@ -98,4 +98,30 @@
     git clone https://trantien-frontend:456789@github.com/trantien-frontend/Git-Test.git #example
   ```
 
-#
+  # Clone voi SSh :
+
+  ```bash
+     git@github.com:trantien-frontend/Dizoil-Clone.git
+     #Clone bằng host khác
+     git@github-thomashenrry97.com:trantien-2/Dizoil-Clone.git
+  ```
+
+  # Git Push : git push & git push origin
+
+  ```bash
+    git push # auto push to branch main
+    git push origin <branch>
+  ```
+
+  # Git log : show history push of git
+
+  ```bash
+    git log
+    git log --oneline
+  ```
+
+  # Gil pull
+
+  ```bash
+    git pull
+  ```
