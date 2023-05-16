@@ -8,4 +8,4 @@ git log
 
 git conflict 2
 
-git fix conflict 3
+conflict 3
