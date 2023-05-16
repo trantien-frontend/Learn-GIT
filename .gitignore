@@ -1,0 +1,14 @@
+# không push node_modules lên git
+node_modules/** 
+
+# push một file được cho phép trong git
+!node_modules/app.js
+
+#build file
+dist/**
+
+# những file bắt đầu bằng chữ text 
+text**
+
+
+
