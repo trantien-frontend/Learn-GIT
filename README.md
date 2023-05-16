@@ -1,1 +1,3 @@
-# Learn-GIT 
+# Learn-GIT
+
+git log
