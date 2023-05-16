@@ -7,3 +7,5 @@ git log
 # conflict
 
 git conflict 2
+
+conflict 3
