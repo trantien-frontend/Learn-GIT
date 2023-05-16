@@ -162,7 +162,14 @@
     # create branch on origin form local
     git push -u origin name-branch-need-to-create
 
+    # Khi del branch thủ công trên git, git local nó sẽ chưa cập nhật branch bị xóa
+    # dùng git fetch cập nhật lại
+    git fetch -p
 
-
-
+    # Kiểm tra các branch local được kết nối với origin
+    cat .git/config
 ```
+
+# Git-merge :
+
+- Gộp các commit lại của 2 nhánh với nhau dựa trên thời gian các commit
