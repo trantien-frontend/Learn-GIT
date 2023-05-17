@@ -274,3 +274,34 @@ UI VSCODE : discard change
   git revert -m 1 hash-code
   # -m 1 : revert Branch B từ Branch A
 ```
+
+# gộp commit với squash
+
+```bash
+  git rebase -i HEAD~3 # HEAD là con trỏ : trỏ từ HEAD 1 Tới HEAD cần gộp
+  # gộp từ HEAD 1 vào HEAD 3
+```
+
+# Chèn vào commit Head :
+
+```bash
+git commit --amend
+```
+
+# flow git :
+
+[Chi Tiet](https://github.com/duocmmo/ReactJs-Super/blob/main/GitCanBanDenNangCao/GitNangCao.md)
+
+# git stash :
+
+```bash
+  git stash # save change current at branch to stash
+  git stash list # show list stash
+  git stash list -p # show list stash detail
+  git stash apply stash@{index} # đưa stash vào lại changes
+  git stash drop stash@{index} # delete stash tai index
+  git stash pop #
+  git stash clear
+
+
+```
