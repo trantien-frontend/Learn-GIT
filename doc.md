@@ -194,4 +194,4 @@
 - git push
 ```
 
-### Note : Git Pull là sự kết hợp giữa ** git pull ** or và ** git merge **
+### Note : Git Pull là sự kết hợp giữa ** git pull ** or và ** git merge ** : lấy dữ liệu mới nhất từ origin về
