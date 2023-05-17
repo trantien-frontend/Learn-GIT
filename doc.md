@@ -223,17 +223,11 @@ NOTE : rebase nhánh feature/login vào main : base lịch sử commit của mai
 
 UI VSCODE : discard change
 
-# git Staged change : undo staged change về trạng thái ban đầu
-
-=======
-
 # git Staged change : undo staged change về change
 
 ```bash
     git reset
 ```
-
-# Hoàn tác những file commited về trạng thái ban đầu :
 
 # Hoàn tác những file commited về change :
 
@@ -241,7 +235,7 @@ UI VSCODE : discard change
   git restore --sourc=hashcode namefile
 ```
 
-# Hoàn tác về commited mà mình mong muốn theo hash-code :
+# Hoàn tác về commited mà mình mong muốn theo hash-code : git reset:
 
 ```bash
   git reset hash-code # default : --mixed --> hoàn tác change
