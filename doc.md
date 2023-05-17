@@ -179,3 +179,15 @@
   git log # lấy ra mã hash của merge sai
   git revert -m 1 hashCode # undo merge
 ```
+
+# Conflict Khi Merger Branch
+
+- Tìm file bị conflict trong tab source và fix
+- add . or add file
+- câu lệnh thêm commit cho file vừa fix :
+
+* git merge --continue --no-edit
+* git merge --continue
+* git commit -m 'message'
+
+- git push
