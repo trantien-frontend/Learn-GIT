@@ -210,15 +210,11 @@ NOTE : rebase nhánh feature/login vào main : base lịch sử commit của mai
 - Tạo một commit sạch sẽ, dễ nhìn
 - Nếu làm cá nhân thì phù hợp
 
-<<<<<<< Updated upstream
-
 # git checkout, git restore : undo local change về trạng thái ban đầu
 
 =======
 
 # git checkout, git restore : undo change
-
-> > > > > > > Stashed changes
 
 ```bash
    git checkout name-file
@@ -227,29 +223,19 @@ NOTE : rebase nhánh feature/login vào main : base lịch sử commit của mai
 
 UI VSCODE : discard change
 
-<<<<<<< Updated upstream
-
 # git Staged change : undo staged change về trạng thái ban đầu
 
 =======
 
 # git Staged change : undo staged change về change
 
-> > > > > > > Stashed changes
-
 ```bash
     git reset
 ```
 
-<<<<<<< Updated upstream
-
 # Hoàn tác những file commited về trạng thái ban đầu :
 
-=======
-
 # Hoàn tác những file commited về change :
-
-> > > > > > > Stashed changes
 
 ```bash
   git restore --sourc=hashcode namefile
