@@ -173,3 +173,9 @@
 # Git-merge :
 
 - Gộp các commit lại của 2 nhánh với nhau dựa trên thời gian các commit
+  NOTE: Khi merge sai branch
+
+```bash
+  git log # lấy ra mã hash của merge sai
+  git revert -m 1 hashCode # undo merge
+```
