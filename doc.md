@@ -186,8 +186,8 @@
 - add . or add file
 - câu lệnh thêm commit cho file vừa fix :
 
-* git merge --continue --no-edit
-* git merge --continue
-* git commit -m 'message'
+  - git merge --continue --no-edit
+  - git merge --continue
+  - git commit -m 'message'
 
 - git push
