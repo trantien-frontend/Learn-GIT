@@ -258,7 +258,13 @@ UI VSCODE : discard change
 # Hoàn tác về commited mà mình mong muốn theo hash-code :
 
 ```bash
-  git reset hash-code # default : --mixed
+  git reset hash-code # default : --mixed --> hoàn tác change
+
+  git reset --soft hash-code # hoàn tác về stage change
+
+  git reset --hard hash-code # xóa luôn thay đổi
+
+  git reset --merge hash-code # giống hard, không mất code
 ```
 
 - Khi reset tại local thì trên origin vẫn còn, khi push lên lại thì origin nó sẽ mất commit thì nó không cho phép nên phải sài :
