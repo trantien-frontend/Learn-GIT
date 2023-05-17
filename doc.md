@@ -210,7 +210,15 @@ NOTE : rebase nhánh feature/login vào main : base lịch sử commit của mai
 - Tạo một commit sạch sẽ, dễ nhìn
 - Nếu làm cá nhân thì phù hợp
 
+<<<<<<< Updated upstream
+
 # git checkout, git restore : undo local change về trạng thái ban đầu
+
+=======
+
+# git checkout, git restore : undo change
+
+> > > > > > > Stashed changes
 
 ```bash
    git checkout name-file
@@ -219,14 +227,42 @@ NOTE : rebase nhánh feature/login vào main : base lịch sử commit của mai
 
 UI VSCODE : discard change
 
+<<<<<<< Updated upstream
+
 # git Staged change : undo staged change về trạng thái ban đầu
+
+=======
+
+# git Staged change : undo staged change về change
+
+> > > > > > > Stashed changes
 
 ```bash
     git reset
 ```
 
+<<<<<<< Updated upstream
+
 # Hoàn tác những file commited về trạng thái ban đầu :
+
+=======
+
+# Hoàn tác những file commited về change :
+
+> > > > > > > Stashed changes
 
 ```bash
   git restore --sourc=hashcode namefile
+```
+
+# Hoàn tác về commited mà mình mong muốn theo hash-code :
+
+```bash
+  git reset hash-code # default : --mixed
+```
+
+- Khi reset tại local thì trên origin vẫn còn, khi push lên lại thì origin nó sẽ mất commit thì nó không cho phép nên phải sài :
+
+```bash
+  git push -f
 ```
