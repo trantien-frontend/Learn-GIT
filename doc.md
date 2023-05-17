@@ -177,8 +177,9 @@
 
 ```bash
   git log # lấy ra mã hash của merge sai
-  git revert -m 1 hashCode # undo merge
-```
+  git revert -m 1 hashCode # undo
+
+  git reset --hard <commit trước commit merge>
 
 # Conflict Khi Merger Branch
 
@@ -191,3 +192,6 @@
   - git commit -m 'message'
 
 - git push
+```
+
+### Note : Git Pull là sự kết hợp giữa ** git pull ** or và ** git merge **
