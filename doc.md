@@ -272,3 +272,19 @@ UI VSCODE : discard change
 ```bash
   git push -f
 ```
+
+# git revert : tạo ra một commit trái ngược với commit hiện tại
+
+```bash
+  git revert hash-code --no-edit # AUTO ADD COMMIT MESSAGE
+  git revert hash-code  # cho edit lại cái mesage commit
+```
+
+- đối với những merge commit không thể revert thông thường phải revert từ parent node
+  note: Khi merge từ branch B vào branch A, thì parent đầu tiên luôn là branch A
+
+```bash
+  git revert -m 1 hash-code --no-edit
+  git revert -m 1 hash-code
+  # -m 1 : revert Branch B từ Branch A
+```
