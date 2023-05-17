@@ -195,3 +195,38 @@
 ```
 
 ### Note : Git Pull là sự kết hợp giữa ** git pull ** or và ** git merge ** : lấy dữ liệu mới nhất từ origin về
+
+# git -rebase
+
+```bash
+  git rebase
+  git push -f
+```
+
+NOTE : rebase nhánh feature/login vào main : base lịch sử commit của main nó bị đè bởi feature login
+
+ưu điểm :
+
+- Tạo một commit sạch sẽ, dễ nhìn
+- Nếu làm cá nhân thì phù hợp
+
+# git checkout, git restore : undo local change về trạng thái ban đầu
+
+```bash
+   git checkout name-file
+   git restore name-file
+```
+
+UI VSCODE : discard change
+
+# git Staged change : undo staged change về trạng thái ban đầu
+
+```bash
+    git reset
+```
+
+# Hoàn tác những file commited về trạng thái ban đầu :
+
+```bash
+  git restore --sourc=hashcode namefile
+```
